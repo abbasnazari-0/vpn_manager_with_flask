@@ -1,7 +1,7 @@
 # vpn_manager_with_flask
  
 ## create user by set count.
- http://127.0.0.1:5000/create 
+ /create 
  
                     @  item_count=1
                     @  expire=30
@@ -12,7 +12,7 @@
 
 
 ## remove user by id
-http://127.0.0.1:5000/remove 
+/remove 
 
                     #  id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     
@@ -20,13 +20,13 @@ http://127.0.0.1:5000/remove
 
 ## get all user_item_count 
 
-http://127.0.0.1:5000/user_item_count
+/user_item_count
 
 
 
 ## chnage Expire Date by user_id
 
-http://127.0.0.1:5000/change_expire_date.
+/change_expire_date.
 
                     # id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     # expire=20
@@ -35,7 +35,7 @@ http://127.0.0.1:5000/change_expire_date.
 
 ## chnage total traffic by user_id                    
 
-http://127.0.0.1:5000/change_total_traffics
+/change_total_traffics
 
                     # id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     # total_traffics=1
@@ -44,7 +44,7 @@ http://127.0.0.1:5000/change_total_traffics
 
 ## change ip limit by user_id        
 
-http://127.0.0.1:5000/chnage_ip_limit
+/chnage_ip_limit
 
                     # id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                     # ip_limit=20
